@@ -1,6 +1,8 @@
 <script setup lang="ts" >
 import { ref } from 'vue'
-
+import amazonAuthButton from '../components/AmanzonAuthButton.vue'
+import googleAuthButton from '../components/GoogleAuthButton.vue'
+import appleAuthButton from '../components/AppleAuthButton.vue'
 const step = ref()
 </script>
 
@@ -98,35 +100,9 @@ const step = ref()
           </v-col>
         </v-row>
       </v-container>
-        <v-btn
-          class="signup_google"
-          color="secondary"
-          variant="tonal"
-          rounded="sm"
-          width="500"
-        >
-          Sign Up with Google
-        </v-btn>
-
-        <v-btn
-          class="signup_google"
-          color="secondary"
-          variant="tonal"
-          rounded="sm"
-          width="500"
-        >
-          Sign Up with Apple
-        </v-btn>
-        
-        <v-btn
-          class="signup_google"
-          color="secondary"
-          variant="tonal"
-          rounded="sm"
-          width="500"
-        >
-          Sign Up with Amazon
-        </v-btn>
+      <googleAuthButton></googleAuthButton>
+      <amazonAuthButton></amazonAuthButton>
+      <appleAuthButton></appleAuthButton>
     </div>
   </v-app>
 </template>
@@ -137,10 +113,6 @@ const step = ref()
   display: grid;
   place-self: center;
   align-self: center;
-}
-.signup_google{
-  margin: 2%;
-  place-self: center;
 }
 
 </style>
