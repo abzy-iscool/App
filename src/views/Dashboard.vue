@@ -1,5 +1,6 @@
 <script setup>
 import ProductCard from '../components/ProductCard.vue';
+import SearchBar from '../components/SearchBar.vue';
 
 </script>
 
@@ -28,6 +29,7 @@ import ProductCard from '../components/ProductCard.vue';
           </v-list>
         </v-navigation-drawer>
         <v-main >
+           <SearchBar></SearchBar>
           <ProductCard></ProductCard>
         </v-main>
       </v-layout>
