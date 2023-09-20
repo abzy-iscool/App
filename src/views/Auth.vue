@@ -26,7 +26,9 @@ const step = ref()
                   </v-card-title>
                   <v-card-text>
                     <v-text-field
-                      color="secondary"
+                      color="#00FFCA"
+                      clearable
+                      clear-icon="close"
                       label="Email"
                       placeholder="john@gmail.com"
                     ></v-text-field>
@@ -43,15 +45,18 @@ const step = ref()
                   </v-card-title>
                   <v-card-text>
                     <v-text-field
-                      color="secondary"
+                      color="#00FFCA"
+                      clearable
+                      clear-icon="close"
                       label="Password"
                       type="password"
                     ></v-text-field>
                     <v-text-field
-                      color="secondary"
+                      color="#00FFCA"
+                      clearable
+                      clear-icon="close"
                       label="Confirm Password"
                       type="password"
-                      clearable
                     ></v-text-field>
                     <span class="text-caption text-grey-darken-1">
                       Please enter a password for your account
@@ -80,7 +85,7 @@ const step = ref()
               <v-card-actions>
                 <v-btn
                   v-if="step > 1"
-                  color="secondary"
+                  color="#00FFCA"
                   variant="text"
                   @click="step--"
                 >
@@ -89,7 +94,7 @@ const step = ref()
                 <v-spacer></v-spacer>
                 <v-btn
                   v-if="step < 3"
-                  color="secondary"
+                  color="#00FFCA"
                   variant="text"
                   @click="step++"
                 >

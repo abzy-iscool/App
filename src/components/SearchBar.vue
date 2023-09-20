@@ -4,23 +4,19 @@
 </script>
 
 <template>
-
-<v-autocomplete
-    flat
-    clearable
-    counter="15"
-    clear-icon="close"
-    hide-no-data
-    menu-icon=""
-    placeholder="Search"
-    prepend-inner-icon="search"
-    base-color="red"
-    color="red"
-    variant="outlined"
-></v-autocomplete>
-
+    <v-autocomplete
+        clearable
+        clear-icon="close"
+        hide-no-data
+        auto-select-first
+        density="comfortable"
+        menu-icon=""
+        placeholder="Search"
+        prepend-inner-icon="search"
+        variant="solo"
+        bg-color="#942b3b"
+    ></v-autocomplete>
 </template>
 
 <style scoped>
-
 </style>

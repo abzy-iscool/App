@@ -10,9 +10,17 @@ import SearchBar from '../components/SearchBar.vue';
       <v-layout>
         <NavDraw></NavDraw>
         <v-main >
-           <SearchBar></SearchBar>
+          <v-col>
+
+            <SearchBar></SearchBar>
+
+          </v-col>
           <ProductCard></ProductCard>
         </v-main>
       </v-layout>
     </v-card>
-  </template>
+</template>
+
+<style scoped>
+
+</style>

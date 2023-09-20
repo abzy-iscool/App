@@ -8,7 +8,7 @@
     
         <v-btn
           class="appleAuthButton"
-          color="#ced4da"
+          color="#05BFDB"
           variant="tonal"
           rounded="sm"
           width="500"

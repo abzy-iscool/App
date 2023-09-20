@@ -8,7 +8,7 @@
 
         <v-btn
           class="googleAuthButton"
-          color="secondary"
+          color="#05BFDB"
           variant="tonal"
           rounded="sm"
           width="500"

@@ -18,7 +18,7 @@
   
           <v-divider></v-divider>
   
-          <v-list nav variant="flat" mandatory active-color="secondary">
+          <v-list nav variant="tonal" mandatory active-color="#088395">
             <v-list-item lines="one" subtitle="" prepend-icon="home" title="Home" value="home" ></v-list-item>
             <v-list-item lines="one" subtitle="" prepend-icon="explore" title="Discover" value="discover"></v-list-item>
             <v-list-item lines="one" subtitle="" prepend-icon="bookmarks" title="Saved" value="saved"></v-list-item>

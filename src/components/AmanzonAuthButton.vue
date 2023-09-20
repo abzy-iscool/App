@@ -8,7 +8,7 @@
 
         <v-btn
           class="amazonAuthButton"
-          color="#ff6d00"
+          color="#05BFDB"
           variant="tonal"
           rounded="sm"
           width="500"
