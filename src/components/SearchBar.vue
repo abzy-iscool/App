@@ -5,6 +5,7 @@
 
 <template>
     <v-autocomplete
+        flat
         clearable
         clear-icon="close"
         hide-no-data
@@ -14,7 +15,7 @@
         placeholder="Search"
         prepend-inner-icon="search"
         variant="solo"
-        bg-color="#942b3b"
+        bg-color="error"
     ></v-autocomplete>
 </template>
 
