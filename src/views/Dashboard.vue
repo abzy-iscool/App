@@ -2,7 +2,6 @@
 import NavDraw from '../components/NavDraw.vue';
 import ProductCard from '../components/ProductCard.vue';
 import SearchBar from '../components/SearchBar.vue';
-
 </script>
 
 <template>

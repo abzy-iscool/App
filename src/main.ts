@@ -5,6 +5,7 @@ import App from './App.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import Auth from "./views/Auth.vue"
 import DashboardVue from './views/Dashboard.vue'
+
 // Vuetify
 import 'vuetify/styles'
 import { createVuetify } from 'vuetify'
