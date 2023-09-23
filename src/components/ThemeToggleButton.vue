@@ -14,7 +14,7 @@ function toggleTheme () {
         icon="flare"
         variant="text" 
         @click="toggleTheme"
-        color="secondary"
+        color="blue"
     >
     </v-btn>
 </template>

@@ -1,5 +1,6 @@
 <template>
-  <v-card
+  <div class="container">
+    <v-card
     class="mx-auto"
     max-width="400"
   >
@@ -32,4 +33,12 @@
       </v-btn>
     </v-card-actions>
   </v-card>
+  </div>
 </template>
+
+<style scoped>
+.container{
+  margin: 5%;
+}
+
+</style>
