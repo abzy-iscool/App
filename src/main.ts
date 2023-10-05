@@ -18,8 +18,8 @@ import { md } from 'vuetify/iconsets/md'
 const router = createRouter ({
   history: createWebHistory(),
   routes: [
-    {path: '/', name:'Home', component: Auth },
-    {path: '/dash', name:'Dashboard', component: DashboardVue },
+    {path: '/auth', name:'authentication', component: Auth },
+    {path: '/dash', name:'dashboard', component: DashboardVue },
   ]
 })
 
@@ -27,9 +27,6 @@ const vuetify = createVuetify({
   components,
   directives,
   blueprint: md3,
-  theme: {
-    defaultTheme: 'dark'
-  },
   icons: {
     defaultSet: 'md',
     aliases,

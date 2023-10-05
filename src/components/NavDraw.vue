@@ -18,7 +18,7 @@
   
           <v-divider></v-divider>
   
-          <v-list nav variant="flat" mandatory active-color="error">
+          <v-list nav variant="flat" mandatory>
             <v-list-item lines="one" subtitle="Find Your Next Place" prepend-icon="home" title="Home" value="home" ></v-list-item>
             <v-list-item lines="one" subtitle="Discover New Abodes" prepend-icon="explore" title="Explore" value="explore"></v-list-item>
             <v-list-item lines="one" subtitle="Saved Listings" prepend-icon="bookmarks" title="Saved" value="saved"></v-list-item>

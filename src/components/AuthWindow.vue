@@ -26,7 +26,6 @@ const step = ref()
                   </v-card-title>
                   <v-card-text>
                     <v-text-field
-                      color="#00FFCA"
                       clearable
                       clear-icon="close"
                       label="Email"
@@ -45,14 +44,12 @@ const step = ref()
                   </v-card-title>
                   <v-card-text>
                     <v-text-field
-                      color="#00FFCA"
                       clearable
                       clear-icon="close"
                       label="Password"
                       type="password"
                     ></v-text-field>
                     <v-text-field
-                      color="#00FFCA"
                       clearable
                       clear-icon="close"
                       label="Confirm Password"
@@ -85,18 +82,18 @@ const step = ref()
               <v-card-actions>
                 <v-btn
                   v-if="step > 1"
-                  color="#00FFCA"
                   variant="text"
                   @click="step--"
+                  color="blue"
                 >
                   Back
                 </v-btn>
                 <v-spacer></v-spacer>
                 <v-btn
                   v-if="step < 3"
-                  color="#00FFCA"
                   variant="text"
                   @click="step++"
+                  color="blue"
                 >
                   Next
                 </v-btn>
@@ -114,7 +111,7 @@ const step = ref()
 <style scoped>
 
 .form_container{
-  margin: 10%;
+  margin: 8%;
   display: grid;
   place-self: center;
   align-self: center;

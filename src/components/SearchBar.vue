@@ -8,14 +8,14 @@
         flat
         clearable
         clear-icon="close"
+        bg-color="blue"
         hide-no-data
         auto-select-first
         density="comfortable"
         menu-icon=""
         placeholder="Search"
         prepend-inner-icon="search"
-        variant="solo"
-        bg-color="error"
+        variant="solo-filled"
     ></v-autocomplete>
 </template>
 

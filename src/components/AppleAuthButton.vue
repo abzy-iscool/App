@@ -8,10 +8,10 @@
     
         <v-btn
           class="appleAuthButton"
-          color="#05BFDB"
           variant="tonal"
           rounded="sm"
           width="500"
+          color="blue"
         >
           Sign Up with Apple
         </v-btn>
@@ -22,7 +22,7 @@
 <style scoped>
 
 .appleAuthButton{
-    margin: 1%;
+  margin: 1%;
   place-self: center;
 }
 </style>

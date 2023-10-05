@@ -8,10 +8,10 @@
 
         <v-btn
           class="googleAuthButton"
-          color="#05BFDB"
           variant="tonal"
           rounded="sm"
           width="500"
+          color="blue"
         >
           Sign Up with Google
         </v-btn>

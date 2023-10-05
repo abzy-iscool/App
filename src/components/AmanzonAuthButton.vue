@@ -8,10 +8,10 @@
 
         <v-btn
           class="amazonAuthButton"
-          color="#05BFDB"
           variant="tonal"
           rounded="sm"
           width="500"
+          color="blue"
         >
           Sign Up with Amazon
         </v-btn>
