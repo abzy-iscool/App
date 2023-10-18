@@ -8,7 +8,7 @@
         flat
         clearable
         clear-icon="close"
-        bg-color="blue"
+        bg-color="green"
         hide-no-data
         auto-select-first
         density="comfortable"

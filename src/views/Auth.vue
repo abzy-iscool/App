@@ -5,7 +5,7 @@ import ThemeToggleButton from '../components/ThemeToggleButton.vue';
 
 <template>
   <v-app>
-    <v-row no-gutters justify="end">
+    <v-row no-gutters justify="start">
       <ThemeToggleButton></ThemeToggleButton>
     </v-row>
     <AuthWindow></AuthWindow>
