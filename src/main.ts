@@ -25,7 +25,7 @@ const router = createRouter ({
     {path: '/auth', name:'authentication', component: Auth },
 
     {
-      path: '/dash', name:'dashboard', component: DashboardVue,
+      path: '/dash', name:'dashboard', component: DashboardVue, redirect:'/dash/home',
 
       children: [
         {
